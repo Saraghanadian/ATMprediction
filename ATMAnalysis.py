@@ -491,21 +491,6 @@ plot_ys(pd.Series(y_train), y_test, y_pred_original, labels=["y_train", "y_test"
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-# sensitivity analysis
-# features = [('Original', ''),
-#             ('Expos. time', 'Exposure_time'),
-#             ('pH', 'pH'),
-#             ('Acetic acid', 'Total_acetic_acid'),
-#             ('pH + A.acid', ['pH', 'Total_acetic_acid']),
-#             ('Temperature', 'Temperature'),
-#             ('CO2 p.pres.', 'CO2_partial_pressure'),
-#             ('H2S p.pres.', 'H2S_partial_pressure'),
-#             ('Salt (NaCl)', 'Salt_(NaCl)'),
-#             ('Inhib conc.', 'Inhibitor_Concentration')]
-# sensitivity1(df=cashDemand, test_size=0.2, estimator=best_estimator, features=features, replicas=20)
-
-# ----------------------------------------------------------------------------------------------------------------------
-
 # the end
 print('=> DONE!')
 
